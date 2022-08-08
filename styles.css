@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #eee;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.formbaslik{
+    margin-top: 150px;
+}
+body{
+    background-color: #eee;
+}
+.container {
+    display: grid;
+    background-color: #eee;
+     max-width: 1000px;
+    width: 100%;
+    margin: auto; 
+}
+.headerli{
+    list-style: none;
+
+   
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    
+}
+#nav-bar ul{
+    display: flex;
+ justify-content: right;
+ gap: 150px;
+   
+}
+
+#header-img {
+    width: 100%;
+    height: 100%;
+  max-width: 300px;
+  max-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-left: 30px;
+}
+
+
+
+.nav-link {
+
+    text-align: right;
+}
+
+form{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+   margin-bottom: 50px;
+}
+#submit{
+    max-width: 150px;
+    height: 30px;
+    margin-left: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #f1c40f
+}
+#email{
+    width: 230px;
+    height: 30px;
+    margin-left: 90px;
+}
+form h1{
+   
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.kutu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+#kutu {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+     width: 100%;
+    overflow: hidden;
+  
+
+
+}
+.text-header p{
+  width: 720px;
+  margin-right: 100px;
+}
+
+
+
+.icon {
+   margin-left: 30px;
+    color: darkorange;
+    margin-top: 60px;
+ 
+}
+.video{
+   text-align: center;
+ 
+}
+#video{
+    width: 600px;
+    height: 350px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+h3 {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+
+}
+
+/* kutuların butonu */
+.select {
+
+    background-color: #f1c40f;
+    font-weight: 400;
+    width: 150px;
+    height: 50px;
+
+
+}
+
+.kutu p {
+    font-weight: 1000;
+    font-size: 25px;
+
+}
+
+ol li {
+    padding-bottom: 15px;
+    padding-right: 40px;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+footer{
+   display: block;
+    background-color: #ddd ;
+    text-align: right;
+   
+ 
+ 
+}
+.footer{
+   
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+  
+  
+
+}
+
+
+@media only screen and (max-width:550px){
+    .select{
+        background-color: red;
+        font-weight: 100;
+        font-size:2;
+        color: #f1c40f;
+        border: 1px solid  #f1c40f ;
+        width: 100px;
+        height: 30px;
+     }
+     #video{
+        width: 330px;
+        text-align: center;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 50px;
+     }
+     .icon {
+        margin-left: 200px;
+        margin-top: 40px;
+        color: darkorange;
+     
+    }
+    .text-header p{
+        width: 400px;
+        margin-right: 150px;
+        padding-left: 20px;
+      }
+      .baslık{
+      padding-left: 120px;
+      }
+      .grid{
+        display: block;
+      }
+      .kutu {
+     display: block;
+    }
+    #kutu {
+        width: 250px;
+        height: 350px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    
+    
+    }
+    .formbaslik{
+        margin-right: 150px;
+    }
+    #nav-bar{
+    display: flex;
+    
+    }
+    #nav-bar ul{
+        display: flex;
+        margin-left:3px;
+        background-color: #eee;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+       
+       
+    }
+    #header{
+        display: block;
+        position: fixed;
+        background-color: #eee;
+        
+    }
+    #header-img {
+        width: 100%;
+        height: 100%;
+      max-width: 200px;
+      max-height: 30px;
+       margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 120px;
+      
+    }
+    
+    } 
+  
